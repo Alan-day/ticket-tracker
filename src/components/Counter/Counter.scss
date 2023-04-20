@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap");
+
+$font-primary: "Playfair Display", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+.counter {
+  font-family: $font-secondary;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  font-family: $font-primary;
+  display: flex;
+  border-radius: 10px;
+}
+
+.addButton {
+  cursor: pointer;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: bisque;
+}
+
+.minusButton {
+  cursor: pointer;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: bisque;
+}
+
+span {
+  font-size: 24px;
+  font-family: $font-secondary;
+}
